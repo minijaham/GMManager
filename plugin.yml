@@ -1,0 +1,14 @@
+name: GMManager
+main: minijaham\Main
+api: [3.0.0, 3.1.0, 3.2.0, 3.3.0, 4.0.0]
+version: 1.0.0
+author: minijaham
+commands:
+  gmc:
+    description: "Change gamemode to Creative"
+  gms:
+    description: "Change gamemode to Survival"
+  gma:
+    description: "Change gamemode to Adventure"
+  gmv:
+    description: "Change gamemode to Spectator"
