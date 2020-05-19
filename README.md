@@ -11,18 +11,18 @@ Allows you to change your Gamemode with ease!
 /gmv - spectator mode
 
 # Permissions
-/gms eg.gms
+/gms gm.gms
 
-/gms eg.gms.other
+/gms gm.gms.other
 
-/gmc eg.gmc
+/gmc gm.gmc
 
-/gmc eg.gmc.other
+/gmc gm.gmc.other
 
-/gma eg.gma
+/gma gm.gma
 
-/gma eg.gma.pther
+/gma gm.gma.pther
 
-/gmv eg.gmv
+/gmv gm.gmv
 
-/gmv eg.gmv.other
+/gmv gm.gmv.other
