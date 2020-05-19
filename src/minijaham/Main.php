@@ -19,12 +19,12 @@ class Main extends PluginBase {
     public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args) : bool {
         switch($cmd->getName()) {
             case "gmc":
-                if (!$sender->hasPermission("eg.gmc")) {
+                if (!$sender->hasPermission("gm.gmc")) {
                     $sender->sendMessage(TextFormat::RED . "No Permission");
                     return true;
                 }
                 if (isset($args[0])) {
-                    if (!$sender->hasPermission("eg.gmc.other")) {
+                    if (!$sender->hasPermission("gm.gmc.other")) {
                         $sender->sendMessage(TextFormat::RED . "No Permission");
                         return true;
                     }
@@ -43,12 +43,12 @@ class Main extends PluginBase {
                 return true;
             break;
             case "gms":
-                if (!$sender->hasPermission("eg.gms")){
+                if (!$sender->hasPermission("gm.gms")){
                     $sender->sendMessage(TextFormat::RED . "No Permission");
                     return true;
                 }
                 if (isset($args[0])) {
-                    if (!$sender->hasPermission("eg.gms.other")){
+                    if (!$sender->hasPermission("gm.gms.other")){
                         $sender->sendMessage(TextFormat::RED . "No Permission");
                         return true;
                     }
@@ -67,12 +67,12 @@ class Main extends PluginBase {
                 return true;
             break;
             case "gma":
-                if (!$sender->hasPermission("eg.gma")){
+                if (!$sender->hasPermission("gm.gma")){
                     $sender->sendMessage(TextFormat::RED . "No Permission");
                     return true;
                 }
                 if (isset($args[0])) {
-                    if (!$sender->hasPermission("eg.gma.other")){
+                    if (!$sender->hasPermission("gm.gma.other")){
                         $sender->sendMessage(TextFormat::RED . "No Permission");
                         return true;
                     }
@@ -91,12 +91,12 @@ class Main extends PluginBase {
                 return true;
             break;
             case "gmv":
-                if (!$sender->hasPermission("eg.gmv")){
+                if (!$sender->hasPermission("gm.gmv")){
                     $sender->sendMessage(TextFormat::RED . "No Permission");
                     return true;
                 }
                 if (isset($args[0])) {
-                    if (!$sender->hasPermission("eg.gmv.other")){
+                    if (!$sender->hasPermission("gm.gmv.other")){
                         $sender->sendMessage(TextFormat::RED . "No Permission");
                         return true;
                     }
