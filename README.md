@@ -26,7 +26,3 @@ Allows you to change your Gamemode with ease!
 /gmv eg.gmv
 
 /gmv eg.gmv.other
-
-# Credit
-@diamondkorben
-The original writer of this plugin. The original one had issues, so I have made an import.
